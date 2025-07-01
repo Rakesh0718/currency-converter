@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.converter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-group input,
+.input-group select,
+.input-group button {
+  padding: 8px 12px;
+  font-size: 16px;
+}
+
+.input-group button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-group button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.box {
+  margin: 20px; /* 20px on all sides */
+}
